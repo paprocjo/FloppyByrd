@@ -1,0 +1,4 @@
+5.0.0f4:2.1.0.0
+StandaloneWindows
+Z:\Editor5_0\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.dll
+Z:/Editor5_0/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll

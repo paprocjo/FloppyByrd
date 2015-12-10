@@ -1,0 +1,361 @@
+fileFormatVersion: 2
+guid: d2207d5f6d852ff40a7e06908216a3e6
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Beak
+    100002: Byrd
+    100004: //RootNode
+    100006: ByrdBones
+    100008: Neck
+    100010: Shoulder_L
+    100012: Shoulder_R
+    100014: Spine
+    100016: Tail
+    100018: WingMid_L
+    100020: WingMid_R
+    100022: WingTip_L
+    100024: WingTip_R
+    400000: Beak
+    400002: Byrd
+    400004: //RootNode
+    400006: ByrdBones
+    400008: Neck
+    400010: Shoulder_L
+    400012: Shoulder_R
+    400014: Spine
+    400016: Tail
+    400018: WingMid_L
+    400020: WingMid_R
+    400022: WingTip_L
+    400024: WingTip_R
+    4300000: Byrd
+    7400000: Default Take
+    7400002: ByrdBonesAction
+    7400004: ByrdBonesAction0
+    7400006: AllActions
+    7400008: AllActions0
+    7400010: AllActions1
+    7400012: AllActions2
+    7400014: FlapDown
+    7400016: BounceBack
+    7400018: FlapUp
+    7400020: Fall
+    7400022: Impact
+    7400024: BounceBack0
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Byrd
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: FlapDown
+      takeName: FlapDown
+      firstFrame: 0
+      lastFrame: 6
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Byrd
+        weight: 1
+      - path: ByrdBones
+        weight: 1
+      - path: ByrdBones/Spine
+        weight: 1
+      - path: ByrdBones/Spine/Neck
+        weight: 1
+      - path: ByrdBones/Spine/Neck/Beak
+        weight: 1
+      - path: ByrdBones/Spine/Shoulder_L
+        weight: 1
+      - path: ByrdBones/Spine/Shoulder_L/WingMid_L
+        weight: 1
+      - path: ByrdBones/Spine/Shoulder_L/WingMid_L/WingTip_L
+        weight: 1
+      - path: ByrdBones/Spine/Shoulder_R
+        weight: 1
+      - path: ByrdBones/Spine/Shoulder_R/WingMid_R
+        weight: 1
+      - path: ByrdBones/Spine/Shoulder_R/WingMid_R/WingTip_R
+        weight: 1
+      - path: ByrdBones/Spine/Tail
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: BounceBack
+      takeName: BounceBack
+      firstFrame: 0
+      lastFrame: 5
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Byrd
+        weight: 1
+      - path: ByrdBones
+        weight: 1
+      - path: ByrdBones/Spine
+        weight: 1
+      - path: ByrdBones/Spine/Neck
+        weight: 1
+      - path: ByrdBones/Spine/Neck/Beak
+        weight: 1
+      - path: ByrdBones/Spine/Shoulder_L
+        weight: 1
+      - path: ByrdBones/Spine/Shoulder_L/WingMid_L
+        weight: 1
+      - path: ByrdBones/Spine/Shoulder_L/WingMid_L/WingTip_L
+        weight: 1
+      - path: ByrdBones/Spine/Shoulder_R
+        weight: 1
+      - path: ByrdBones/Spine/Shoulder_R/WingMid_R
+        weight: 1
+      - path: ByrdBones/Spine/Shoulder_R/WingMid_R/WingTip_R
+        weight: 1
+      - path: ByrdBones/Spine/Tail
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: FlapUp
+      takeName: FlapUp
+      firstFrame: 0
+      lastFrame: 8
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Byrd
+        weight: 1
+      - path: ByrdBones
+        weight: 1
+      - path: ByrdBones/Spine
+        weight: 1
+      - path: ByrdBones/Spine/Neck
+        weight: 1
+      - path: ByrdBones/Spine/Neck/Beak
+        weight: 1
+      - path: ByrdBones/Spine/Shoulder_L
+        weight: 1
+      - path: ByrdBones/Spine/Shoulder_L/WingMid_L
+        weight: 1
+      - path: ByrdBones/Spine/Shoulder_L/WingMid_L/WingTip_L
+        weight: 1
+      - path: ByrdBones/Spine/Shoulder_R
+        weight: 1
+      - path: ByrdBones/Spine/Shoulder_R/WingMid_R
+        weight: 1
+      - path: ByrdBones/Spine/Shoulder_R/WingMid_R/WingTip_R
+        weight: 1
+      - path: ByrdBones/Spine/Tail
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Fall
+      takeName: Fall
+      firstFrame: 0
+      lastFrame: 4
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Byrd
+        weight: 1
+      - path: ByrdBones
+        weight: 1
+      - path: ByrdBones/Spine
+        weight: 1
+      - path: ByrdBones/Spine/Neck
+        weight: 1
+      - path: ByrdBones/Spine/Neck/Beak
+        weight: 1
+      - path: ByrdBones/Spine/Shoulder_L
+        weight: 1
+      - path: ByrdBones/Spine/Shoulder_L/WingMid_L
+        weight: 1
+      - path: ByrdBones/Spine/Shoulder_L/WingMid_L/WingTip_L
+        weight: 1
+      - path: ByrdBones/Spine/Shoulder_R
+        weight: 1
+      - path: ByrdBones/Spine/Shoulder_R/WingMid_R
+        weight: 1
+      - path: ByrdBones/Spine/Shoulder_R/WingMid_R/WingTip_R
+        weight: 1
+      - path: ByrdBones/Spine/Tail
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Impact
+      takeName: Impact
+      firstFrame: 0
+      lastFrame: 3
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Byrd
+        weight: 1
+      - path: ByrdBones
+        weight: 1
+      - path: ByrdBones/Spine
+        weight: 1
+      - path: ByrdBones/Spine/Neck
+        weight: 1
+      - path: ByrdBones/Spine/Neck/Beak
+        weight: 1
+      - path: ByrdBones/Spine/Shoulder_L
+        weight: 1
+      - path: ByrdBones/Spine/Shoulder_L/WingMid_L
+        weight: 1
+      - path: ByrdBones/Spine/Shoulder_L/WingMid_L/WingTip_L
+        weight: 1
+      - path: ByrdBones/Spine/Shoulder_R
+        weight: 1
+      - path: ByrdBones/Spine/Shoulder_R/WingMid_R
+        weight: 1
+      - path: ByrdBones/Spine/Shoulder_R/WingMid_R/WingTip_R
+        weight: 1
+      - path: ByrdBones/Spine/Tail
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: ByrdBones
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
